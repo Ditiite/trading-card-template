@@ -82,41 +82,70 @@ ul {
 /* Add your card styles here,
 please don't change or add any class selectors */
 
-#card-100.card {
-  font-family: ;
+#card-100.card {  
+  font-family:'Rosarivo', serif;
+  background: url('https://image.ibb.co/jiLKHb/card_bg.jpg') no-repeat 0 0;
+  border-top: 4px solid #3c364e;
+  border-right: 5px solid #3c364e;
+  border-bottom: 7px solid #3c364e;
+  border-left: 5px solid #3c364e;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+  margin: 30px auto;
+  padding: 15px;
+  color: #3c364e;
 }
 
 #card-100 .card-title {
-  padding: ;
-  font-size: ;
+  padding: 10px 0;
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* if you have a second line on the card title,
 use this class */
 #card-100 .second-title {
-
+ 
 }
 
 #card-100 img.card-img {
-
+  padding: 18px 0;
 }
 
 #card-100 .card-body {
-  padding: ;
-  font-size: ;
-}
-
-#card-100 .card-subtitle {
-  font-size: ;
-}
-
-#card-100 .card-list-group {
-  padding: ;
+  padding: 15px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-top: 1px solid #f2ecdd;
+  border-right: 2px solid #f2ecdd;
+  border-bottom: 3px solid #f2ecdd;
+  border-left: 2px solid #f2ecdd;
+  border-radius: 0 0 15px 15px;
+  padding: 15px;
+  font-family:'Rosarivo', serif;
   line-height: ;
 }
 
-#card-100 .card-list-group span {
+#card-100 .card-subtitle {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 16px;
+}
 
+#card-100 .card-list-group {
+  padding: 0;
+  line-height: ;
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+#card-100 .card-list-group span {
+  font-weight: bold;
 }
 
 #card-100 .card-text {
